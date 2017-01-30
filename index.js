@@ -17,7 +17,8 @@ var ngrok = require('ngrok');
 var auth = require('http-auth'); // @see https://github.com/gevorg/http-auth
 var scribe = require('scribe-js')(); // used for logs
 var async = require('async');
-var monk = require('monk');
+// var monk = require('monk');
+var monk = require('monck');
 nconf.argv().env();
 var url = nconf.get('databaseUrl');
 var db = monk(url);

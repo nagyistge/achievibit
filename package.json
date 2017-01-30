@@ -46,5 +46,11 @@
     "socket.io": "^1.4.8",
     "swig": "^1.4.2",
     "tinycolor2": "^1.4.1"
+  },
+  "devDependencies": {
+    "bson-objectid": "^1.1.5",
+    "jsonfile": "^2.4.0",
+    "monck": "github:thatkookooguy/monck",
+    "q": "^1.4.1"
   }
 }

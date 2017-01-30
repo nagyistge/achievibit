@@ -1,5 +1,6 @@
 var _ = require('lodash');
-var monk = require('monk');
+//var monk = require('monk');
+var monk = require('monck');
 var nconf = require('nconf');
 var async = require('async');
 var utilities = require('./utilities');
@@ -28,7 +29,7 @@ var collections = {
 
 var achievibitDB = {};
 
-initCollections();
+// initCollections();
 
 achievibitDB.insertItem = insertItem;
 achievibitDB.updateItem = updateItem;

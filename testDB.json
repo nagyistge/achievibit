@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "hello": "world",
+      "pizza": true,
+      "id": "588eb4c33fd30b1528c63034"
+    },
+    {
+      "hello": "world",
+      "pizza": false,
+      "id": "588eb4c33fd30b1528c63035"
+    }
+  ]
+}
